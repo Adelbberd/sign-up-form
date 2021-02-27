@@ -1,0 +1,90 @@
+body {
+    background: #8A897C;
+    padding: 0 15vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* For Desktop screen */
+@media only screen and (min-width: 768px){
+    body {
+        padding: 0 25vw;
+    }
+
+    header {
+        font-size: 2.5vw;
+    }
+}
+
+/* Header/logo section */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #174352;
+}
+
+#logo-heading {
+    margin-bottom: 0;
+    border-bottom: 1px solid #174352;
+    border-top: 1px solid #174352;
+}
+
+#tagline {
+    font-style: italic;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+/* Form section */
+
+#sign-up-heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 12px 0;
+    background: #2C302E;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+#div-form {
+    background:  #474A48;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+
+input[type=text], input[type=email], input[type=password], button {
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1.5px solid #174352;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+button {
+    font-weight: bold;
+    color: #fff;
+    background: #2C302E;
+}
+
+button:hover {
+    background: #11343f;
+    font-size: 22px;
+}
+
+#sign-in p, button {
+    text-align: center;
+    font-size: 19px;
+}
