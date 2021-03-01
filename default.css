@@ -88,3 +88,8 @@ button:hover {
     text-align: center;
     font-size: 19px;
 }
+
+#sign-in a {
+    text-decoration: none;
+    color: #fff;
+}
